@@ -36,12 +36,20 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 ## 2. Solución
 
-*[Incluya aquí una explicación de la solución implementada]*
+1. Ejercicio conjunto a subconjuntos
+
+* SumaSubCon() El codigo utiliza recusividad para encontrar  si el ultimo elemento es mas grande que la suma este es ignorado, de lo contrario checa si la suma puede ser obtenida ya sea incluyendo el ultimo o sin incluir el ultimo elemento del conjunto
+
+* ParticionCon() Regresa Booleano "true" si el arreglo puede ser particionado en 2 sub conjuntos que equivalgan la suma deseada
+
+* O(2^n) en el peor de los casos, ya que esta solucion prueba 2 opciones
+
+
 
 ### 2.1 Pasos a seguir para utilizar la aplicación
 
-*[Incluya aquí una guía paso a paso para poder utilizar la aplicación, desde la clonación del repositorio, la compilación del código hasta la ejecución de los ejemplos para visualizar los resultados.]*
+Es necesario bajar el codigo c++, despues para cambiar el arreglo debes meterte al main y en donde esta el arreglo es donde puedes poner el arreglo deseado, despues de eso es necesario compilarlo y correr el programa
 
 ## 3. Referencias
 
-*[Incluya aquí las referencias a sitios de interés y cualquier otra información que haya utilizado para realizar la actividad y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
+https://www.techiedelight.com/partition-problem/
