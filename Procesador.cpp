@@ -19,7 +19,7 @@ struct Procesador
 };
   
 // funcion para ceprar los procesadores de acuerdo al tiempo
-bool comparison(Procesador a, Procesador b)
+bool comparacion(Procesador a, Procesador b)
 {
      return (a.Tiempo > b.Tiempo);
 }
@@ -28,7 +28,7 @@ bool comparison(Procesador a, Procesador b)
 void printProceso(Procesador arr[], int n)
 {
     // arregla los procesos de acuerdo a orden decreciente
-    sort(arr, arr+n, comparison);
+    sort(arr, arr+n, comparacion);
   
     int result[n]; // resultado o secuencia de procesadores
     bool slot[n];  // tener orden del tiempo necesario
