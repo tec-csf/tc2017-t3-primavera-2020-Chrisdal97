@@ -48,15 +48,26 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 * *struct Procesador* es una estructura que usaremos para definir el procesador a base de su ID, su tiempo y el orden preferibel de uso
 
-* ParticionCon() Regresa Booleano "true" si el arreglo puede ser particionado en 2 sub conjuntos que equivalgan la suma deseada
+* *Comparacion()* funcion para separar los procesadores de acuerdo al tiempo
+
+* *printProceso()* funcion que regresa el numero necesario para los trabajos 
+
+
 
 * O(n^2) se podria optimisar si se usan sets disjuntos
 
 
 ### 2.1 Pasos a seguir para utilizar la aplicación
 
+1. Ejercicio conjunto a subconjuntos
+
 Es necesario bajar el codigo c++, despues para cambiar el arreglo debes meterte al main y en donde esta el arreglo es donde puedes poner el arreglo deseado, despues de eso es necesario compilarlo y correr el programa
+
+2. Procesador y mejor ocupacion 
+
+Es necesario bajar el codigo c++, seguido de eso puedes entrar al arrreglo del main donde se encuentran las 3 cosas qu epuedes cmabiar como usuario, el ID, el orden preferencial, y el timpo. Seguido de eso se le recomienda al usuario compliarlo y seguido de eso correr el programa donde le dara los procesos y el orden en el que se deben ejecutar (comenzano por el primero)
 
 ## 3. Referencias
 
 https://www.techiedelight.com/partition-problem/
+https://www.codespeedy.com/job-sequencing-with-deadlines-in-cpp/
