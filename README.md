@@ -38,12 +38,19 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 1. Ejercicio conjunto a subconjuntos
 
-* SumaSubCon() El codigo utiliza recusividad para encontrar  si el ultimo elemento es mas grande que la suma este es ignorado, de lo contrario checa si la suma puede ser obtenida ya sea incluyendo el ultimo o sin incluir el ultimo elemento del conjunto
+* *SumaSubCon()* El codigo utiliza recusividad para encontrar  si el ultimo elemento es mas grande que la suma este es ignorado, de lo contrario checa si la suma puede ser obtenida ya sea incluyendo el ultimo o sin incluir el ultimo elemento del conjunto
 
-* ParticionCon() Regresa Booleano "true" si el arreglo puede ser particionado en 2 sub conjuntos que equivalgan la suma deseada
+* *ParticionCon()* Regresa Booleano "true" si el arreglo puede ser particionado en 2 sub conjuntos que equivalgan la suma deseada
 
 * O(2^n) en el peor de los casos, ya que esta solucion prueba 2 opciones
 
+2. Procesador y mejor ocupacion 
+
+* *struct Procesador* es una estructura que usaremos para definir el procesador a base de su ID, su tiempo y el orden preferibel de uso
+
+* ParticionCon() Regresa Booleano "true" si el arreglo puede ser particionado en 2 sub conjuntos que equivalgan la suma deseada
+
+* O(n^2) se podria optimisar si se usan sets disjuntos
 
 
 ### 2.1 Pasos a seguir para utilizar la aplicación
